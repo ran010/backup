@@ -1867,7 +1867,6 @@ COPY public.seeker_categories (id, category_id, seeker_profile_id, created_at, u
 100	1	99	2018-07-10 17:47:52.899948	2018-07-10 17:47:52.899948
 101	8	100	2018-07-10 17:47:52.933184	2018-07-10 17:47:52.933184
 102	7	101	2018-07-13 14:23:31.102135	2018-07-13 14:23:31.102135
-103	7	102	2018-08-30 10:08:29.815034	2018-08-30 10:08:29.815034
 \.
 
 
@@ -1987,8 +1986,6 @@ COPY public.seeker_educations (id, education_id, seeker_profile_id, colzname, ye
 102	1	101	LMV	2068	2018-07-13 14:23:31.056176	2018-07-13 14:23:31.056176
 103	2	101	DAV	2070	2018-07-13 14:23:31.098055	2018-07-13 14:23:31.098055
 104	4	101	AIC	2075	2018-07-13 14:23:31.10034	2018-07-13 14:23:31.10034
-105	2	102	asd	2076	2018-08-30 10:08:29.726835	2018-08-30 10:08:29.726835
-106	2	102	das	2007	2018-08-30 10:08:29.812241	2018-08-30 10:08:29.812241
 \.
 
 
@@ -2105,7 +2102,6 @@ COPY public.seeker_profiles (id, first_name, last_name, phone_no, sex, prefered_
 100	Sven	Ledner	381-474-5228	\N	Apt. 990 59074 Kathryn Crest, West Albinaview, DE 57221-0786	8573	2002-11-02	Nepalese	New Lenorafort	Nedmouth	2	["Sunt quis dolorem mollitia fugiat quaerat. Dignissimos assumenda qui id consequatur provident molestiae. Voluptate aut est dolorem doloremque.", "Et sunt error necessitatibus aut consequatur. Et velit ducimus non totam omnis est. Est facilis enim tenetur eveniet cumque dolores. Assumenda fuga reiciendis aut ea quia cumque optio. Quam qui cupiditate consequuntur harum et accusantium eos.", "Excepturi et pariatur. Occaecati asperiores aut atque nostrum impedit eos. Facilis nesciunt explicabo animi voluptatibus maxime consequatur cupiditate."]	\N	f		100	2018-07-10 17:40:36.737753	2018-07-10 17:40:36.737753	\N	\N
 1	Vivien	Rice	1-892-735-2819	false	Suite 559 34398 Tierra Estates, Goldnerborough, LA 52735-7301	1897	1986-03-25	Nepalese	Murazikburgh	Padbergburgh	2	<p style="text-align: center;"><strong>[&quot;Ducimus facilis dolorem rerum repellendus et omnis quae. Expedita velit modi delectus qui qui unde exercitationem. Mollitia repellendus ipsam cupiditate.&quot;, &quot;Dolorem fugiat sed. Numquam tenetur minus rerum vitae consequatur est provident. Aut excepturi beatae vel dolore repellat veritatis.&quot;, &quot;Beatae quo qui tempore at totam expedita occaecati. Consequatur et saepe sit quasi quidem eligendi commodi. Modi explicabo alias laboriosam nesciunt temporibus. Nulla quo voluptatibus laborum. Sapiente sed qui vel ipsam natus maiores quam.&quot;]</strong></p>\r\n	\N	t		1	2018-07-10 17:40:09.101455	2018-07-11 14:30:19.641913	\N	\N
 101	ranjan	Bajracharya	98765444	false	Kathmandu	20000	12/09/2053	neapli	Patan	Patan	3 		\N	f		101	2018-07-13 14:23:30.988448	2018-07-13 15:37:06.918657	00.png	SampleSRS5.pdf
-102	as	da	asd	true		\N	12/09/2053	Nepali					\N	\N		102	2018-08-30 10:08:29.583893	2018-08-30 10:08:29.583893	\N	\N
 \.
 
 
@@ -2227,8 +2223,6 @@ COPY public.seeker_skills (id, skill_id, seeker_profile_id, created_at, updated_
 104	10	101	2018-07-13 14:23:31.122783	2018-07-13 14:23:31.122783
 105	4	101	2018-07-13 14:23:31.135241	2018-07-13 14:23:31.135241
 106	1	101	2018-07-13 14:23:31.136908	2018-07-13 14:23:31.136908
-107	18	102	2018-08-30 10:08:29.886178	2018-08-30 10:08:29.886178
-108	13	102	2018-08-30 10:08:29.909275	2018-08-30 10:08:29.909275
 \.
 
 
@@ -2354,7 +2348,6 @@ COPY public.seekers (id, email, encrypted_password, reset_password_token, reset_
 1	alanis_kiehn@barton.io	$2a$11$XHa3hD61JEdBWu3c3kqSkOjg9ejd8GUYwKmEMpbcUNjwHqhiCrdbe	\N	\N	\N	7	2018-07-13 05:43:54.460394	2018-07-12 02:49:14.587899	127.0.0.1	127.0.0.1	2018-07-10 17:40:09.030182	2018-07-13 05:43:54.462006	\N	2018-09-04 05:48:54.726865	\N	\N
 101	ran@gmail.com	$2a$11$GEEDLMIu/FQ1yPTUp5OUOOmE4ox/X59fBm0KXaeGtxx6U57tpilFm	\N	\N	\N	20	2018-09-03 15:37:49.844803	2018-09-03 12:00:19.81257	127.0.0.1	127.0.0.1	2018-07-13 14:19:38.069119	2018-09-03 15:37:49.847195	\N	2018-09-04 05:48:54.726865	\N	\N
 103	ran2@gmail.com	$2a$11$d3QTQ60404UZF01NrIOIvuHrR2jTSnAErzqYKKuGcu4b1GRd7aB3K	\N	\N	\N	1	2018-08-30 10:09:50.945799	2018-08-30 10:09:50.945799	127.0.0.1	127.0.0.1	2018-08-30 10:09:50.881088	2018-08-30 10:09:50.947121	\N	2018-09-04 05:48:54.726865	\N	\N
-113	ranjan010@ran.com	$2a$11$bagDbXBkr7utMfA0PY8WQudnBlDYeDJkFghdiM3DAKE0tRaDfd.Qa	\N	\N	\N	1	2018-09-04 06:43:09.223496	2018-09-04 06:43:09.223496	127.0.0.1	127.0.0.1	2018-09-04 06:43:09.19335	2018-09-04 06:43:09.224401	\N	\N	\N	\N
 102	ran1@gmail.com	$2a$11$maei5EDfGV9wO8XDBjxs/O88.YSFU1.zdrP66KEt69AXT7E5qFVGe	\N	\N	\N	13	2018-09-04 08:06:12.908971	2018-09-04 08:05:42.376172	127.0.0.1	127.0.0.1	2018-08-30 04:19:49.917832	2018-09-04 08:06:12.91036	\N	2018-09-04 05:48:54.726865	\N	\N
 \.
 
